@@ -23,9 +23,10 @@ mkdir scan
 
 ./scan.py ./sim nproc=8 scan/run????
 
+# Include the result files in svn so that they are sent to github
+
+cd ..
+git add ExerciseDay2/scan/run0*/aster.txt
 
 # This is the step where the students have to make their own python script and analyse the data
 
-# Run the solution function
-
-/gogo.py ./scan/run00*>data.txt
