@@ -40,6 +40,7 @@ new aster centrosome
     point0 = center, 0.5
     nb_fibers = 32
     fiber_length = [[length]]
+    position = 0 0
 }
 
 run simul *
