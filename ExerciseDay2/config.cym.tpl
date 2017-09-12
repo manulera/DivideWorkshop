@@ -2,7 +2,7 @@
 
 set simul aster 
 {
-    time_step = 0.001
+    time_step = 0.01
     viscosity = 0.01
 }
 

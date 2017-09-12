@@ -32,7 +32,8 @@ def makeplot(data,p):
     for pt in data:
         ax.plot(pt[0], pt[1], 'o', color='blue')
     for i,txt in enumerate(p):
-        ax.annotate(txt,(data[i][0], data[i][1]))
+        pass
+        #ax.annotate(txt,(data[i][0], data[i][1]))
 
     # label axes and put title:
     plt.ylabel('Distance to center', fontsize=fts)
