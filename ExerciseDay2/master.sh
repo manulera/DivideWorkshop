@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 ## Basically a script to create the data to make the exercise yourself
 
 # Destroy any previous data
