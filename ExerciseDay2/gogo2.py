@@ -1,9 +1,9 @@
 
 
-import os, math
+import os, math, sys
 import matplotlib.pyplot as plt
 
-#------------------------------------------------------------------------
+# A function to plot the data and save it to a file
 
 def makeplot(data,p):
     fts = 14
@@ -22,8 +22,7 @@ def makeplot(data,p):
     plt.title('Simulations', fontsize=fts+4)
     fig.tight_layout()
     
-#------------------------------------------------------------------------
-
+# A function to read the files from the directory files
 def process(path):
     """ 
         This extracts the data in one simulation directory
@@ -50,19 +49,31 @@ def process(path):
         f.close()
     return (pam, pos)
 
-#------------------------------------------------------------------------
+## Settings
+# The folder where the subfolders with the simulations are
 parent_folder = 'scan'
+# A logical variable indicating wether you want the output to be written into a file
+print_file = True
+# The name of the file where we want to print the data
+file_name = "data.txt"
+
 paths = os.listdir(parent_folder)
 paths2 = list()
 for i in paths:
     if i[0:3]=='run':
         paths2.append(os.path.join(parent_folder,i))
 res = list()
-print paths2
+if print_file:
+    oldstdout = sys.stdout
+    sys.stdout = open(file_name,'w')
 for p in paths2:
     val = process(p)
     print("%s %f %f" % (p, val[0], val[1]) )
     res.append(val)
+if print_file:
+    sys.stdout = oldstdout
+
+print('DONE')
 makeplot(res,paths)
 plt.savefig('plot', dpi=300)
 plt.show()
