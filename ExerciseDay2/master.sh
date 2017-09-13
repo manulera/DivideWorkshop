@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-## Basically a script to run the whole exercise and check that it works properly
+## Basically a script to create the data to make the exercise yourself
 
 # Destroy any previous data
 
@@ -11,9 +11,9 @@ rm -rf ./scan
 
 mkdir scan
 
-# Use preconfig.py to make a bunch of config files
+# Use preconfig.py to make a bunch of config files, you can change the number to the desired number of simulations
 
-./preconfig.py 300 ./config.cym.tpl scan
+./preconfig.py 30 ./config.cym.tpl scan
 
 # Use collect to put all the config files in subfolders with formatted names
 
@@ -22,11 +22,6 @@ mkdir scan
 # Run simulations in parallel (This will take a while)
 
 ./scan.py ./sim nproc=8 scan/run????
-
-# Include the result files in svn so that they are sent to github
-
-#cd ..
-#git add ExerciseDay2/scan/run0*/aster.txt
 
 # This is the step where the students have to make their own python script and analyse the data
 
