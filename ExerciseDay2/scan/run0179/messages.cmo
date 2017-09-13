@@ -1,14 +1,14 @@
 CYTOSIM PI version 5871M
-Tue Sep 12 20:03:56 2017
-F1          5.00s   CPU       1407ms           1s
-F2         10.00s   CPU       1376ms           3s
-F3         15.00s   CPU       1381ms           4s
-F4         20.00s   CPU       1390ms           6s
-F5         25.00s   CPU       1426ms           7s
-F6         30.00s   CPU       1383ms           8s
-F7         35.00s   CPU       1468ms          10s
-F8         40.00s   CPU       1371ms          11s
-F9         45.00s   CPU       1385ms          13s
-F10        50.00s   CPU       1416ms          14s
-Tue Sep 12 20:04:09 2017
+Wed Sep 13 18:49:49 2017
+F1          0.50s   CPU        765ms           1s
+F2          1.00s   CPU        774ms           2s
+F3          1.50s   CPU        757ms           2s
+F4          2.00s   CPU        738ms           3s
+F5          2.50s   CPU        724ms           4s
+F6          3.00s   CPU        699ms           4s
+F7          3.50s   CPU        695ms           5s
+F8          4.00s   CPU        707ms           6s
+F9          4.50s   CPU        706ms           7s
+F10         5.00s   CPU        676ms           7s
+Wed Sep 13 18:49:56 2017
 end

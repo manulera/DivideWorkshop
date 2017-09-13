@@ -1,6 +1,6 @@
 
-% start   50
-% time    50
+% start   5
+% time    5
 %    class  identity  positionX positionY positionZ
-         1         1 -0.0001702    0.3983   -0.3182
+         1         1    -1.365    0.8652    -1.317
 % end

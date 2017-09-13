@@ -1,0 +1,53 @@
+% 7.14776905508
+
+set simul aster 
+{
+    time_step = 0.01
+    viscosity = 0.01
+}
+
+set space cell
+{
+    geometry = ( sphere 10 )
+}
+
+new space cell
+
+set fiber microtubule
+{
+    rigidity = 30
+    segmentation = 1
+    confine = inside, 100
+
+    display = { line_width=3; }
+}
+
+set solid core
+{
+    display = ( style=3 )
+}
+
+set aster centrosome
+{
+    solid = core
+    fibers = microtubule
+    stiffness = 1000, 500
+}
+
+new aster centrosome
+{
+    radius = 0.5
+    point0 = center, 0.5
+    nb_fibers = 32
+    fiber_length = 7.14776905508
+    position = 0 0
+}
+
+run simul *
+{
+    nb_steps = 5000
+    nb_frames = 10
+}
+
+report aster aster.txt
+

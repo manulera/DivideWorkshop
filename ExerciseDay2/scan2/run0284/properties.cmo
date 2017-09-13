@@ -1,0 +1,41 @@
+% Cytosim property file
+% Tue Sep 12 20:07:18 2017
+% pid 32329
+
+set simul aster
+{
+ time_step            = 0.01;
+ viscosity            = 0.01;
+ random_seed          = 782446912;
+}
+
+set space 1 cell
+{
+ geometry             = sphere 10;
+ shape                = sphere;
+ dimensions           = 10;
+}
+
+set fiber 1 microtubule
+{
+ rigidity             = 30;
+ viscosity            = 0.01;
+ confine              = 1, 100, cell;
+ display              = (line_width=3;);
+}
+
+set solid 1 core
+{
+ viscosity            = 0.01;
+ confine              = 0, 0, cell;
+ display              = (style=3);
+}
+
+set aster 1 centrosome
+{
+ solid                = core;
+ fibers               = microtubule;
+ stiffness            = 1000, 500;
+}
+
+

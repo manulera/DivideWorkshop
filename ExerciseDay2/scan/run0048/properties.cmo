@@ -1,12 +1,12 @@
 % Cytosim property file
-% Tue Sep 12 19:59:47 2017
-% pid 32010
+% Wed Sep 13 18:45:55 2017
+% pid 54759
 
 set simul aster
 {
- time_step            = 0.01;
+ time_step            = 0.001;
  viscosity            = 0.01;
- random_seed          = 3472230052;
+ random_seed          = 2194306563;
 }
 
 set space 1 cell

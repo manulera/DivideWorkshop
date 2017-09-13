@@ -1,8 +1,8 @@
-% 10.0382495476
+% 9.9321257044
 
 set simul aster 
 {
-    time_step = 0.01
+    time_step = 0.001
     viscosity = 0.01
 }
 
@@ -39,8 +39,8 @@ new aster centrosome
     radius = 0.5
     point0 = center, 0.5
     nb_fibers = 32
-    fiber_length = 10.0382495476
-    position = 0 0
+    fiber_length = 9.9321257044
+%    position = 0 0
 }
 
 run simul *
