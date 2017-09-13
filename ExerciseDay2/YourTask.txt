@@ -54,7 +54,9 @@ You have to create a python script that:
 
 IF YOU FINISH
 
-"make_data.sh" is a bash script file that was used to generate the data, run the commands one by one in your shell
+Try to understand how the data was generated, go to the make_data folder.
+"master.sh" is a bash script file that was used to generate the data, run the commands one by one in your shell
  and try to understand what they do. You can run a set of 30 new simualtions and report something else
  and try to analyse it.
 
+In order to use "make_data.sh" you will have to copy the "sim" or "sim.exe" file into the folder "make_data"
