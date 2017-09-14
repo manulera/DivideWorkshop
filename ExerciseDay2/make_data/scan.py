@@ -62,7 +62,7 @@ def main(args):
     """
     global executable
     try:
-        executable =  os.path.join(sys.path[0],args[0])
+        executable = os.path.abspath(os.path.expanduser(args[0]))
     except:
         out.write("Error: you should specify a command to execute\n")
         return 1
