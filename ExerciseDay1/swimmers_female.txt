@@ -1,0 +1,66 @@
+01:35.0,Germany,1908
+01:26.6,Belgium,1910
+01:24.6,Great Britain,1911
+01:20.6,Great Britain,1912
+01:19.8,Australia,1912
+01:18.8,Australia,1912
+01:16.2,Australia,1915
+01:14.4,United States,1920
+01:13.6,United States,1920
+01:12.8,United States,1923
+01:12.2,United States,1924
+01:10.0,United States,1926
+01:09.8,United States,1929
+01:09.4,United States,1929
+01:08.0,United States,1930
+01:06.6,United States,1931
+01:06.0,Netherlands,1933
+01:05.4,Netherlands,1934
+01:04.8,Netherlands,1934
+01:04.6,Netherlands,1936
+01:04.5,Australia,1956
+01:04.2,Netherlands,1956
+01:04.0,Netherlands,1956
+01:03.3,Australia,1956
+01:03.2,Australia,1956
+01:02.4,Australia,1956
+01:02.0,Australia,1956
+01:01.5,Australia,1958
+01:01.4,Australia,1958
+01:01.2,Australia,1958
+01:00.2,Australia,1960
+01:00.0,Australia,1962
+59.9,Australia,1962
+59.5,Australia,1962
+58.9,Australia,1964
+58.9,Australia,1971
+58.5,Australia,1972
+58.25,East Germany,1973
+58.12,East Germany,1973
+57.61,East Germany,1973
+57.54,East Germany,1973
+57.51,East Germany,1974
+56.96,East Germany,1974
+56.38,East Germany,1975
+56.22,East Germany,1975
+55.73,East Germany,1976
+55.65,East Germany,1976
+55.41,East Germany,1978
+54.98,East Germany,1980
+54.79,East Germany,1980
+54.73,East Germany,1986
+54.48,United States,1992
+54.01,China,1994
+53.8,Netherlands,2000
+53.77,Netherlands,2000
+53.66,Australia,2004
+53.52,Australia,2004
+53.42,Australia,2006
+53.3,Germany,2006
+52.88,Australia,2008
+52.85,Germany,2009
+52.56,Germany,2009
+52.22,Germany,2009
+52.07,Germany,2009
+52.06,Australia,2016
+51.71,Sweden,2017
