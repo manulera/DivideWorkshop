@@ -1,0 +1,50 @@
+1:05.8;Hungary;1905
+1:05.6;United States;1908
+1:02.8;United States;1910
+1:02.4;Germany;1912
+1:01.6;United States;1912
+1:01.4;United States;1918
+1:00.4;United States;1920
+58.6;United States;1922
+57.4;United States;1924
+56.8;United States;1934
+56.6;United States;1935
+56.4;United States;1936
+55.9;United States;1944
+55.8;France;1947
+55.4;United States;1948
+54.8;United States;1954
+55.4;Australia;1956
+55.2;Australia;1957
+54.6;Australia;1957
+54.4;United States;1961
+53.6;Brazil;1961
+52.9;France;1964
+52.9;United States;1964
+52.6;United States;1967
+52.6;United States;1968
+52.2;Australia;1968
+51.94;United States;1970
+51.47;United States;1972
+51.22;United States;1972
+51.12;United States;1975
+51.11;United States;1975
+50.59;United States;1975
+50.39;United States;1976
+49.99;United States;1976
+49.44;South Africa;1976
+49.36;United States;1981
+49.24;United States;1985
+48.95;United States;1985
+48.74;United States;1986
+48.42;United States;1988
+48.21;Russia;1994
+48.18;Australia;2000
+47.84;Netherlands;2000
+47.60;France;2008
+47.50;France;2008
+47.24;Australia;2008
+47.20;France;2008
+47.05;Australia;2008
+46.94;France;2009
+46.91;Brazil;2009
