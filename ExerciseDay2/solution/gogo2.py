@@ -65,6 +65,8 @@ def process(path):
     return (pam, pos)
 
 ## Parameters
+
+
 # The folder where the subfolders with the simulations are
 parent_folder = 'scan'
 # A logical variable indicating wether you want the output to be written into a file
@@ -85,20 +87,18 @@ res = list()
 # If we are using print to either print on the console or in a file we can redirect the standard output to a file. We
 # keep the original at oldstdout to restore it after, and print DONE to double check
 if print_file:
-    oldstdout = sys.stdout
-    sys.stdout = open(file_name,'w')
+    out = open(file_name,'w')
+else:
+    out = sys.stdout
 
 # Print formatted values either in the console or in the text file
 for p in paths2:
     val = process(p)
-    print("%s %f %f" % (p, val[0], val[1]) )
+    out.write("%s %f %f\n" % (p, val[0], val[1]) )
     res.append(val)
 # Close file and restore standard output
-if print_file:
-    sys.stdout.close()
-    sys.stdout = oldstdout
 
-print('DONE')
+sys.stdout.write('DONE\n')
 makeplot(res,paths)
 # Save the figure to a document
 plt.savefig('plot', dpi=300)
